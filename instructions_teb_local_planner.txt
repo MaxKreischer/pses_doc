@@ -13,7 +13,6 @@ imu_complementary_filter
 navigation (? may not be necessary on all machines if pre-installed?)
 pses_basis
 pses_simulation
-robot_setup_tf
 segfault_ctrl (may be called SegFault)
 segfault_robot_2dnav
 serial
