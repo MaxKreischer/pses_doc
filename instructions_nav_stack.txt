@@ -1,0 +1,5 @@
+Input/Output of Navigation Stack and our interactions with it.
+
+As can be seen in figure 1 of http://wiki.ros.org/navigation/Tutorials/RobotSetup the inputs to the nav stack are goals, topic move_base_simple/goals of type geometry_msgs/PoseStamped and are set by our package setNavGoals or by clicking the 2d Goal pose thingy in rviz.
+
+The output is of topic /cmd_vel and has type geometry_msgs/Twist. This needs to be fed into a controller that translates these into motor_level and steering_level type commands to be fed into the motors. In simulation a controller is not necessary.
