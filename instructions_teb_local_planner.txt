@@ -6,4 +6,17 @@ sudo apt-get install ros-indigo-teb-local-planner
 sudo apt-get install ros-indigo-stage-ros
 -------------------------------------------------------------------------------------------------------------
 
-
+Team internal packages:
+depthimage_to_laserscan
+Einparken
+imu_complementary_filter
+navigation (? may not be necessary on all machines if pre-installed?)
+pses_basis
+pses_simulation
+robot_setup_tf
+segfault_ctrl (may be called SegFault)
+segfault_robot_2dnav
+serial
+setNavGoals
+-------------------------------------------------------------------------------------------------------------
+Especially segfault_robot_2dnav needs to be on the most recent version if the teb_local_planner is to be used
